@@ -35,9 +35,17 @@ public class TestNGMethods {
     public String getCurrentURL(){
         return driver.getCurrentUrl();
     }
+    public String getCurrentTitle(){
+        return driver.getTitle();
+    }
+    
     public void clickElement(By locator){
         WebElement element = driver.findElement(locator);
         element.click();
+    }
+    public String findElementAttributes(By locator, String attribute){
+        WebElement element = driver.findElement(locator);
+        return element.getAttribute(attribute);
     }
     public void sendData(By locator, String data){
         WebElement element = driver.findElement(locator);

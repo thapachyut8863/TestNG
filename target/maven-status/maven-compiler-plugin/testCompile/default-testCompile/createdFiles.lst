@@ -1,1 +1,5 @@
+com\mycompany\nestng_annotations\NewTestNG.class
+com\mycompany\nestng_annotations\GroupTestCases.class
 com\mycompany\nestng_annotations\NestNG_Annotations.class
+com\mycompany\nestng_annotations\TestNG.class
+com\mycompany\nestng_annotations\SoftAssertJava.class

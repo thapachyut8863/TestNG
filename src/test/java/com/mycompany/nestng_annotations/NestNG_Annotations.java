@@ -17,15 +17,13 @@ import org.testng.annotations.Test;
  * @author Dell
  */
 public class NestNG_Annotations {
-    public NestNG_Annotations(){
-    }
+    
     TestNGMethods tng = new TestNGMethods(null);
     @BeforeClass
     public void testSetUp(){
         tng.browserSetUp();
         tng.implicitWait();
         tng.screenMaximize();
-        
     }
     @BeforeMethod
     public void openBrowser(){
